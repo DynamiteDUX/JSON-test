@@ -1,0 +1,28 @@
+{
+	"name": "www.test.com",
+	"description": "TEST NAMESPACE",
+	"roles": [
+		{
+			"name": "testRole",
+			"description": "TEST",
+			"resources": ["testResource"]
+		},
+		{
+			"name": "testRole2",
+			"description": "ANOTHER TEST",
+			"resources": ["testResource2"]
+		}
+	],
+	"resources": [
+		{
+			"name": "testResource",
+			"description": "TEST",
+			"values": ["testValue"]
+		},
+		{
+			"name": "testResource2",
+			"description": "ANOTHER TEST",
+			"values": ["testValue"]
+		}
+	]
+}
